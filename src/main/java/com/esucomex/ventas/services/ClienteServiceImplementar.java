@@ -1,10 +1,8 @@
 package com.esucomex.ventas.services;
 
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.esucomex.ventas.entities.Cliente;
 import com.esucomex.ventas.Daos.IClienteDao;
 @Service
