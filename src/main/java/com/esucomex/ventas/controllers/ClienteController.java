@@ -26,7 +26,6 @@ public class ClienteController {
 	
 	@GetMapping("/getAllClientes")
 	public List<Cliente> getAllClientes(){
-		
 		return (List<Cliente>) clienteServ.obtenerTodosLosClientes();
 		
 	}

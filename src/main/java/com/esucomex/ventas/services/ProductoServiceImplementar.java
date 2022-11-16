@@ -15,7 +15,6 @@ public class ProductoServiceImplementar implements IProductoService {
 	
 	@Override
 	public List<Producto> obtenerTodosLosProductos() {
-		
 		return (List<Producto>)productoDao.findAll();
 	}
 
